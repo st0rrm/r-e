@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-09-29 ¿ÀÈÄ 1:33:55 by Eclipse SUMO GUI Version 1.9.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="demo.net.xml"/>
+        <route-files value="demo.rou.xml"/>
+        <additional-files value="demo.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="56423"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="vehicle_3" depart="0.00" departLane="gneE156_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="51.00" arrivalLane="-gneE257_0" arrivalPos="85.60" arrivalSpeed="13.89" duration="51.00" routeLength="363.39" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="24.97" rerouteNo="0" devices="tripinfo_vehicle_3 battery_vehicle_3" vType="ElectricCar" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="vehicle_12" depart="0.00" departLane="gneE110_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="51.00" arrivalLane="-gneE278_0" arrivalPos="85.60" arrivalSpeed="14.09" duration="51.00" routeLength="363.39" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="23.96" rerouteNo="0" devices="tripinfo_vehicle_12 battery_vehicle_12" vType="ElectricCar" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="vehicle_10" depart="0.00" departLane="gneE154_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="52.00" arrivalLane="-gneE233_0" arrivalPos="85.60" arrivalSpeed="14.84" duration="52.00" routeLength="363.39" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="25.22" rerouteNo="0" devices="tripinfo_vehicle_10 battery_vehicle_10" vType="ElectricCar" speedFactor="1.09" vaporized=""/>
+    <tripinfo id="vehicle_5" depart="0.00" departLane="gneE152_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="54.00" arrivalLane="-gneE209_0" arrivalPos="85.60" arrivalSpeed="11.54" duration="54.00" routeLength="363.39" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="19.90" rerouteNo="0" devices="tripinfo_vehicle_5 battery_vehicle_5" vType="ElectricCar" speedFactor="0.83" vaporized=""/>
+    <tripinfo id="vehicle_7" depart="4.00" departLane="gneE156_0" departPos="6.10" departSpeed="0.00" departDelay="4.00" arrival="59.00" arrivalLane="-gneE257_0" arrivalPos="85.60" arrivalSpeed="12.31" duration="55.00" routeLength="363.39" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="22.08" rerouteNo="0" devices="tripinfo_vehicle_7 battery_vehicle_7" vType="ElectricCar" speedFactor="0.89" vaporized=""/>
+    <tripinfo id="vehicle_0" depart="0.00" departLane="gneE84_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="126.00" arrivalLane="gneE264_0" arrivalPos="85.60" arrivalSpeed="13.93" duration="126.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="57.17" rerouteNo="0" devices="tripinfo_vehicle_0 battery_vehicle_0" vType="ElectricCar" speedFactor="1.06" vaporized=""/>
+    <tripinfo id="vehicle_2" depart="0.00" departLane="gneE76_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="126.00" arrivalLane="gneE311_0" arrivalPos="85.60" arrivalSpeed="14.03" duration="126.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="53.67" rerouteNo="0" devices="tripinfo_vehicle_2 battery_vehicle_2" vType="ElectricCar" speedFactor="1.01" vaporized=""/>
+    <tripinfo id="vehicle_6" depart="0.00" departLane="gneE58_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="126.00" arrivalLane="gneE238_0" arrivalPos="85.60" arrivalSpeed="13.99" duration="126.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="56.20" rerouteNo="0" devices="tripinfo_vehicle_6 battery_vehicle_6" vType="ElectricCar" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="vehicle_11" depart="0.00" departLane="gneE73_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="126.00" arrivalLane="gneE275_0" arrivalPos="85.60" arrivalSpeed="14.06" duration="126.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="54.82" rerouteNo="0" devices="tripinfo_vehicle_11 battery_vehicle_11" vType="ElectricCar" speedFactor="1.03" vaporized=""/>
+    <tripinfo id="vehicle_14" depart="0.00" departLane="gneE89_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="126.00" arrivalLane="gneE324_0" arrivalPos="85.60" arrivalSpeed="13.77" duration="126.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="52.24" rerouteNo="0" devices="tripinfo_vehicle_14 battery_vehicle_14" vType="ElectricCar" speedFactor="0.99" vaporized=""/>
+    <tripinfo id="vehicle_1" depart="0.00" departLane="gneE85_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="131.00" arrivalLane="gneE276_0" arrivalPos="85.60" arrivalSpeed="13.03" duration="131.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="51.80" rerouteNo="0" devices="tripinfo_vehicle_1 battery_vehicle_1" vType="ElectricCar" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="vehicle_8" depart="0.00" departLane="gneE77_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="131.00" arrivalLane="gneE323_0" arrivalPos="85.60" arrivalSpeed="13.03" duration="131.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="51.76" rerouteNo="0" devices="tripinfo_vehicle_8 battery_vehicle_8" vType="ElectricCar" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="vehicle_4" depart="4.00" departLane="gneE85_0" departPos="6.10" departSpeed="0.00" departDelay="4.00" arrival="135.00" arrivalLane="gneE276_0" arrivalPos="85.60" arrivalSpeed="14.00" duration="131.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="59.05" rerouteNo="0" devices="tripinfo_vehicle_4 battery_vehicle_4" vType="ElectricCar" speedFactor="1.03" vaporized=""/>
+    <tripinfo id="vehicle_9" depart="0.00" departLane="gneE50_0" departPos="6.10" departSpeed="0.00" departDelay="0.00" arrival="135.00" arrivalLane="gneE285_0" arrivalPos="85.60" arrivalSpeed="11.90" duration="135.00" routeLength="931.17" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="47.80" rerouteNo="0" devices="tripinfo_vehicle_9 battery_vehicle_9" vType="ElectricCar" speedFactor="0.86" vaporized=""/>

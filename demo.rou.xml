@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-08-12  2:44:06 by Eclipse SUMO netedit Version 1.9.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\0811\demo.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\0811\demo.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\0811\demo.add.xml"/>
+        <route-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\0811\demo.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ElectricCar" length="6.00" minGap="2.50" maxSpeed="100.00" color="white" accel="1.0" decel="1.0" sigma="0.0">
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="stoppingTreshold" value="0.1"/>
+        <param key="vehicleMass" value="10000"/>
+    </vType>
+    <vType id="car" maxSpeed="10.00" accel="3.5" decel="2.2" sigma="1"/>
+    <vType id="emergency_vehicle" length="7.00" maxSpeed="20.00" speedFactor="normc(2.00,0.00)" vClass="emergency" guiShape="emergency" minGapLat="0.20" accel="5.5" decel="2.2" sigma="1.0"/>
+    <vType id="vType_0"/>
+    <route edges="-gneE19 gneE139 gneE31 gneE32 -gneE211 -gneE20 gneE199 gneE32 gneE33 -gneE223 -gneE21 gneE211 gneE33 gneE34 -gneE235 -gneE22 gneE223 gneE34 gneE35 -gneE247 -gneE23 gneE235 gneE35 gneE36 -gneE259 -gneE24 gneE247 gneE36 gneE37 -gneE271 -gneE25 gneE259 gneE37 gneE38 -gneE283 -gneE26 gneE271 gneE38 gneE39 -gneE295 -gneE27 gneE283 gneE39 gneE40 -gneE307 -gneE28 gneE295 gneE40 gneE41 -gneE319 -gneE29 gneE307 gneE41 gneE42 -gneE187 -gneE30 gneE319 gneE42 -gneE187 -gneE30 gneE319 gneE320 gneE54 -gneE188 -gneE42 gneE320 gneE321 gneE66 -gneE189 -gneE54 gneE321 gneE322 gneE78 -gneE190 -gneE66 gneE322 gneE323 gneE90 -gneE191 -gneE78 gneE323 gneE324 gneE102 -gneE192 -gneE90 gneE324 gneE325 gneE114 -gneE193 -gneE102 gneE325 gneE326 gneE126 -gneE194 -gneE114 gneE326 gneE327 gneE138 -gneE195 -gneE126 gneE327 gneE328 gneE162 -gneE196 -gneE138 gneE328 gneE329 gneE174 -gneE197 -gneE162 gneE329 gneE330 gneE186 -gneE198 -gneE174 gneE330 gneE186 -gneE198 -gneE174 -gneE173 gneE318 gneE185 -gneE330 -gneE173 -gneE172 gneE306 gneE184 -gneE318 -gneE172 -gneE171 gneE294 gneE183 -gneE306 -gneE171 -gneE170 gneE282 gneE182 -gneE294 -gneE170 -gneE169 gneE270 gneE181 -gneE282 -gneE169 -gneE168 gneE258 gneE180 -gneE270 -gneE168 -gneE167 gneE246 gneE179 -gneE258 -gneE167 -gneE166 gneE234 gneE178 -gneE246 -gneE166 -gneE165 gneE222 gneE177 -gneE234 -gneE165 -gneE164 gneE210 gneE176 -gneE222 -gneE164 -gneE163 gneE150 gneE175 -gneE210 -gneE163 gneE150 gneE175 -gneE210 -gneE209 -gneE151 gneE149 gneE163 -gneE209 -gneE208 -gneE127 gneE148 gneE151 -gneE208 -gneE207 -gneE115 gneE147 gneE127 -gneE207 -gneE206 -gneE103 gneE146 gneE115 -gneE206 -gneE205 -gneE91 gneE145 gneE103 -gneE205 -gneE204 -gneE79 gneE144 gneE91 -gneE204 -gneE203 -gneE67 gneE143 gneE79 -gneE203 -gneE202 -gneE55 gneE142 gneE67 -gneE202 -gneE201 -gneE43 gneE141 gneE55 -gneE201 -gneE200 -gneE31 gneE140 gneE43 -gneE200 -gneE199 -gneE19 gneE139" color="yellow" id="route_0"/>
+    <route edges="gneE19 gneE20 gneE21 gneE22 gneE23 gneE24 gneE25 gneE26 gneE27 gneE28 gneE29 gneE30 gneE187 gneE188 gneE189 gneE190 gneE191 gneE192 gneE193 gneE194 gneE195 gneE196 gneE197 gneE198 -gneE186 -gneE185 -gneE184 -gneE183 -gneE182 -gneE181 -gneE180 -gneE179 -gneE178 -gneE177 -gneE176 -gneE175 -gneE150 -gneE149 -gneE148 -gneE147 gneE115 gneE207 -gneE127 -gneE147 -gneE146 -gneE145 -gneE144 -gneE143 -gneE142 -gneE141 -gneE140 -gneE139" color="yellow" id="route_1"/>
+    <route edges="gneE39 gneE296 -gneE51 -gneE284 gneE39 gneE296 -gneE51 -gneE284 gneE39 gneE296" color="yellow" id="route_10"/>
+    <route edges="gneE156 gneE269 -gneE168 -gneE257" color="yellow" id="route_100"/>
+    <route edges="gneE157 gneE281 -gneE169 -gneE269" color="yellow" id="route_101"/>
+    <route edges="gneE158 gneE293 -gneE170 -gneE281" color="yellow" id="route_102"/>
+    <route edges="gneE159 gneE305 -gneE171 -gneE293" color="yellow" id="route_103"/>
+    <route edges="gneE160 gneE317 -gneE172 -gneE305" color="yellow" id="route_104"/>
+    <route edges="gneE161 gneE329 -gneE173 -gneE317" color="yellow" id="route_105"/>
+    <route edges="gneE138" color="yellow" id="route_106"/>
+    <route edges="gneE138 gneE196 -gneE162 -gneE328" color="yellow" id="route_107"/>
+    <route edges="gneE162 gneE197 -gneE174 -gneE329" color="yellow" id="route_108"/>
+    <route edges="gneE173 gneE330 -gneE185 -gneE318" color="yellow" id="route_109"/>
+    <route edges="gneE40 gneE308 -gneE52 -gneE296 gneE40 gneE308 -gneE52 -gneE296 gneE40 gneE308" color="yellow" id="route_11"/>
+    <route edges="gneE172 gneE318 -gneE184 -gneE183 -gneE294 gneE171 gneE306 -gneE183 -gneE182 -gneE282 gneE170 gneE294 -gneE182 -gneE181 -gneE270 gneE169 gneE282 -gneE181 -gneE180 -gneE258 gneE168 gneE270 -gneE180 -gneE179 -gneE246 gneE167 gneE258 -gneE179 -gneE178 -gneE234 gneE166 gneE246 -gneE178 -gneE177 -gneE222 gneE165 gneE234 -gneE177 -gneE176 -gneE210 gneE164" color="yellow" id="route_110"/>
+    <route edges="-gneE327" color="yellow" id="route_111"/>
+    <route edges="gneE41 gneE320 -gneE53 -gneE308 gneE41 gneE320 -gneE53 -gneE308 gneE41 gneE320" color="yellow" id="route_12"/>
+    <route edges="gneE44 gneE213 -gneE56 -gneE201" color="yellow" id="route_13"/>
+    <route edges="gneE45 gneE225 -gneE57 -gneE213" color="yellow" id="route_14"/>
+    <route edges="gneE46 gneE237 -gneE58 -gneE225 gneE46 gneE237 -gneE58 -gneE225 gneE46 gneE237" color="yellow" id="route_15"/>
+    <route edges="gneE47 gneE249 -gneE59 -gneE237 gneE47 gneE249 -gneE59 -gneE237 gneE47 gneE249" color="yellow" id="route_16"/>
+    <route edges="gneE48 gneE261 -gneE60 -gneE249 gneE48 gneE261 -gneE60 -gneE249 gneE48 gneE261" color="yellow" id="route_17"/>
+    <route edges="gneE49 gneE273 -gneE61 -gneE261 gneE49 gneE273 -gneE61 -gneE261 gneE49 gneE273" color="yellow" id="route_18"/>
+    <route edges="gneE50 gneE285 -gneE62 -gneE273 gneE50 gneE285 -gneE62 -gneE273 gneE50 gneE285" color="yellow" id="route_19"/>
+    <route edges="-gneE32 gneE200 gneE201 gneE202 gneE203 gneE204 gneE205 gneE206 gneE116 gneE117 gneE118 gneE119 gneE120 gneE121 gneE122 gneE123 gneE124 gneE125 -gneE326 -gneE325 -gneE324 -gneE323 -gneE322 -gneE321 -gneE320 -gneE41 -gneE40 -gneE39 -gneE38 -gneE37 -gneE36 -gneE35 -gneE34 -gneE33" color="yellow" id="route_2"/>
+    <route edges="gneE51 gneE297 -gneE63 -gneE285 gneE51 gneE297 -gneE63 -gneE285 gneE51 gneE297" color="yellow" id="route_20"/>
+    <route edges="gneE52 gneE309 -gneE64 -gneE297 gneE52 gneE309 -gneE64 -gneE297 gneE52 gneE309" color="yellow" id="route_21"/>
+    <route edges="gneE53 gneE321 -gneE65 -gneE309 gneE53 gneE321 -gneE65 -gneE309 gneE53 gneE321" color="yellow" id="route_22"/>
+    <route edges="gneE56 gneE214 -gneE68 -gneE202 gneE56 gneE214 -gneE68 -gneE202 gneE56 gneE214" color="yellow" id="route_23"/>
+    <route edges="gneE57 gneE226 -gneE69 -gneE214 gneE57 gneE226 -gneE69 -gneE214 gneE57 gneE226" color="yellow" id="route_24"/>
+    <route edges="gneE58 gneE238 -gneE70 -gneE226 gneE58 gneE238 -gneE70 -gneE226 gneE58 gneE238" color="yellow" id="route_25"/>
+    <route edges="gneE59 gneE250 -gneE71 -gneE238 gneE59 gneE250 -gneE71 -gneE238 gneE59 gneE250" color="yellow" id="route_26"/>
+    <route edges="gneE60 gneE262 -gneE72 -gneE250 gneE60 gneE262 -gneE72 -gneE250 gneE60 gneE262" color="yellow" id="route_27"/>
+    <route edges="gneE61 gneE274 -gneE73 -gneE262 gneE61 gneE274 -gneE73 -gneE262 gneE61 gneE274" color="yellow" id="route_28"/>
+    <route edges="gneE62 gneE286 -gneE74 -gneE274 gneE62 gneE286 -gneE74 -gneE274 gneE62 gneE286" color="yellow" id="route_29"/>
+    <route edges="gneE212 -gneE44 -gneE200 gneE32" color="yellow" id="route_3"/>
+    <route edges="gneE63 gneE298 -gneE75 -gneE286 gneE63 gneE298 -gneE75 -gneE286 gneE63 gneE298" color="yellow" id="route_30"/>
+    <route edges="gneE64 gneE310 -gneE76 -gneE298 gneE64 gneE310 -gneE76 -gneE298 gneE64 gneE310" color="yellow" id="route_31"/>
+    <route edges="gneE65 gneE322 -gneE77 -gneE310 gneE65 gneE322 -gneE77 -gneE310 gneE65 gneE322" color="yellow" id="route_32"/>
+    <route edges="gneE68 gneE215 -gneE80 -gneE203 gneE68 gneE215 -gneE80 -gneE203 gneE68 gneE215" color="yellow" id="route_33"/>
+    <route edges="gneE69 gneE227 -gneE81 -gneE215 gneE69 gneE227 -gneE81 -gneE215 gneE69 gneE227" color="yellow" id="route_34"/>
+    <route edges="gneE70 gneE239 -gneE82 -gneE227 gneE70 gneE239 -gneE82 -gneE227 gneE70 gneE239" color="yellow" id="route_35"/>
+    <route edges="gneE71 gneE251 -gneE83 -gneE239 gneE71 gneE251 -gneE83 -gneE239 gneE71 gneE251" color="yellow" id="route_36"/>
+    <route edges="gneE72 gneE263 -gneE84 -gneE251 gneE72 gneE263 -gneE84 -gneE251 gneE72 gneE263" color="yellow" id="route_37"/>
+    <route edges="gneE73 gneE275 -gneE85 -gneE263 gneE73 gneE275 -gneE85 -gneE263 gneE73 gneE275" color="yellow" id="route_38"/>
+    <route edges="gneE74 gneE287 -gneE86 -gneE275 gneE74 gneE287 -gneE86 -gneE275 gneE74 gneE287" color="yellow" id="route_39"/>
+    <route edges="gneE33 gneE224 -gneE45 -gneE212 gneE33 gneE224 -gneE45 -gneE212 gneE33 gneE224" color="yellow" id="route_4"/>
+    <route edges="gneE75 gneE299 -gneE87 -gneE287 gneE75 gneE299 -gneE87 -gneE287 gneE75 gneE299" color="yellow" id="route_40"/>
+    <route edges="gneE76 gneE311 -gneE88 -gneE299 gneE76 gneE311 -gneE88 -gneE299 gneE76 gneE311" color="yellow" id="route_41"/>
+    <route edges="gneE77 gneE323 -gneE89 -gneE311 gneE77 gneE323 -gneE89 -gneE311 gneE77 gneE323" color="yellow" id="route_42"/>
+    <route edges="gneE80 gneE216 -gneE92 -gneE204 gneE80 gneE216 -gneE92 -gneE204 gneE80 gneE216" color="yellow" id="route_43"/>
+    <route edges="gneE81 gneE228 -gneE93 -gneE216 gneE81 gneE228 -gneE93 -gneE216 gneE81 gneE228" color="yellow" id="route_44"/>
+    <route edges="gneE82 gneE240 -gneE94 -gneE228 gneE82 gneE240 -gneE94 -gneE228 gneE82 gneE240" color="yellow" id="route_45"/>
+    <route edges="gneE83 gneE252 -gneE95 -gneE240 gneE83 gneE252 -gneE95 -gneE240 gneE83 gneE252" color="yellow" id="route_46"/>
+    <route edges="gneE84 gneE264 -gneE96 -gneE252 gneE84 gneE264 -gneE96 -gneE252 gneE84 gneE264" color="yellow" id="route_47"/>
+    <route edges="gneE85 gneE276 -gneE97 -gneE264 gneE85 gneE276 -gneE97 -gneE264 gneE85 gneE276" color="yellow" id="route_48"/>
+    <route edges="gneE86 gneE288 -gneE98 -gneE276 gneE86 gneE288 -gneE98 -gneE276 gneE86 gneE288" color="yellow" id="route_49"/>
+    <route edges="gneE34 gneE236 -gneE46 -gneE224 gneE34 gneE236 -gneE46 -gneE224 gneE34 gneE236" color="yellow" id="route_5"/>
+    <route edges="gneE87 gneE300 -gneE99 -gneE288 gneE87 gneE300 -gneE99 -gneE288 gneE87 gneE300" color="yellow" id="route_50"/>
+    <route edges="gneE88 gneE312 -gneE100 -gneE300 gneE88 gneE312 -gneE100 -gneE300 gneE88 gneE312" color="yellow" id="route_51"/>
+    <route edges="gneE89 gneE324 -gneE101 -gneE312 gneE89 gneE324 -gneE101 -gneE312 gneE89 gneE324" color="yellow" id="route_52"/>
+    <route edges="gneE92 gneE217 -gneE104 -gneE205 gneE92 gneE217 -gneE104 -gneE205 gneE92 gneE217" color="yellow" id="route_53"/>
+    <route edges="gneE93 gneE229 -gneE105 -gneE217 gneE93 gneE229 -gneE105 -gneE217 gneE93 gneE229" color="yellow" id="route_54"/>
+    <route edges="gneE94 gneE241 -gneE106 -gneE229 gneE94 gneE241 -gneE106 -gneE229 gneE94 gneE241" color="yellow" id="route_55"/>
+    <route edges="gneE95 gneE253 -gneE107 -gneE241 gneE95 gneE253 -gneE107 -gneE241 gneE95 gneE253" color="yellow" id="route_56"/>
+    <route edges="gneE96 gneE265 -gneE108 -gneE253 gneE96 gneE265 -gneE108 -gneE253 gneE96 gneE265" color="yellow" id="route_57"/>
+    <route edges="gneE97 gneE277 -gneE109 -gneE265 gneE97 gneE277 -gneE109 -gneE265 gneE97 gneE277" color="yellow" id="route_58"/>
+    <route edges="gneE98 gneE289 -gneE110 -gneE277 gneE98 gneE289 -gneE110 -gneE277 gneE98 gneE289" color="yellow" id="route_59"/>
+    <route edges="gneE35 gneE248 -gneE47 -gneE236 gneE35 gneE248 -gneE47 -gneE236 gneE35 gneE248" color="yellow" id="route_6"/>
+    <route edges="gneE99 gneE301 -gneE111 -gneE289 gneE99 gneE301 -gneE111 -gneE289 gneE99 gneE301" color="yellow" id="route_60"/>
+    <route edges="gneE100 gneE313 -gneE112 -gneE301 gneE100 gneE313 -gneE112 -gneE301 gneE100 gneE313" color="yellow" id="route_61"/>
+    <route edges="gneE101 gneE325 -gneE113 -gneE313 gneE101 gneE325 -gneE113 -gneE313 gneE101 gneE325" color="yellow" id="route_62"/>
+    <route edges="gneE219 -gneE128 -gneE207 -gneE206 gneE104 gneE218 -gneE116 -gneE206 gneE104 gneE218 -gneE116 -gneE206 gneE104 gneE218" color="yellow" id="route_63"/>
+    <route edges="gneE105 gneE230 -gneE117 -gneE218 gneE105 gneE230 -gneE117 -gneE218 gneE105 gneE230" color="yellow" id="route_64"/>
+    <route edges="gneE106 gneE242 -gneE118 -gneE230 gneE106 gneE242 -gneE118 -gneE230 gneE106 gneE242" color="yellow" id="route_65"/>
+    <route edges="gneE107 gneE254 -gneE119 -gneE242 gneE107 gneE254 -gneE119" color="yellow" id="route_66"/>
+    <route edges="-gneE108 -gneE107 gneE242 gneE119 -gneE254 gneE108 gneE266 -gneE120" color="yellow" id="route_67"/>
+    <route edges="gneE109 gneE278 -gneE121 -gneE266" color="yellow" id="route_68"/>
+    <route edges="gneE110 gneE290 -gneE122 -gneE278" color="yellow" id="route_69"/>
+    <route edges="gneE36 gneE260 -gneE48 -gneE248 gneE36 gneE260 -gneE48 -gneE248 gneE36 gneE260" color="yellow" id="route_7"/>
+    <route edges="gneE111 gneE302 -gneE123 -gneE290" color="yellow" id="route_70"/>
+    <route edges="gneE112 gneE314 -gneE124 -gneE302" color="yellow" id="route_71"/>
+    <route edges="gneE113 gneE326 -gneE125 -gneE314" color="yellow" id="route_72"/>
+    <route edges="gneE117 gneE231 -gneE129 -gneE219" color="yellow" id="route_73"/>
+    <route edges="gneE118 gneE243 -gneE130 -gneE231" color="yellow" id="route_74"/>
+    <route edges="gneE119 gneE255 -gneE131 -gneE243" color="yellow" id="route_75"/>
+    <route edges="gneE120 gneE267 -gneE132 -gneE255" color="yellow" id="route_76"/>
+    <route edges="gneE121 gneE279 -gneE133 -gneE267" color="yellow" id="route_77"/>
+    <route edges="gneE122 gneE291 -gneE134 -gneE279" color="yellow" id="route_78"/>
+    <route edges="gneE123 gneE303 -gneE135 -gneE291" color="yellow" id="route_79"/>
+    <route edges="gneE37 gneE272 -gneE49 -gneE260 gneE37 gneE272 -gneE49 -gneE260 gneE37 gneE272" color="yellow" id="route_8"/>
+    <route edges="gneE124 gneE315 -gneE136 -gneE303" color="yellow" id="route_80"/>
+    <route edges="gneE125 gneE327 -gneE137 -gneE315" color="yellow" id="route_81"/>
+    <route edges="gneE127 gneE208 -gneE151 -gneE148" color="yellow" id="route_82"/>
+    <route edges="gneE128 gneE220 -gneE152 -gneE208" color="yellow" id="route_83"/>
+    <route edges="gneE129 gneE232 -gneE153 -gneE220" color="yellow" id="route_84"/>
+    <route edges="gneE130 gneE244 -gneE154 -gneE232" color="yellow" id="route_85"/>
+    <route edges="gneE131 gneE256 -gneE155 -gneE244" color="yellow" id="route_86"/>
+    <route edges="gneE132 -gneE267 -gneE120 gneE255 gneE256" color="yellow" id="route_87"/>
+    <route edges="gneE132 gneE268 -gneE156 -gneE256" color="yellow" id="route_88"/>
+    <route edges="gneE133 gneE280 -gneE157 -gneE268" color="yellow" id="route_89"/>
+    <route edges="gneE38 gneE284 -gneE50 -gneE272 gneE38 gneE284 -gneE50 -gneE272 gneE38 gneE284" color="yellow" id="route_9"/>
+    <route edges="gneE134 gneE292 -gneE158 -gneE280" color="yellow" id="route_90"/>
+    <route edges="gneE135 gneE304 -gneE159 -gneE292" color="yellow" id="route_91"/>
+    <route edges="gneE136 gneE316 -gneE160 -gneE304" color="yellow" id="route_92"/>
+    <route edges="gneE137 gneE328 -gneE161 -gneE316" color="yellow" id="route_93"/>
+    <route edges="gneE151 gneE209 -gneE163 -gneE149" color="yellow" id="route_94"/>
+    <route edges="gneE152 gneE221 -gneE164 -gneE209" color="yellow" id="route_95"/>
+    <route edges="gneE153 gneE233 -gneE165 -gneE221" color="yellow" id="route_96"/>
+    <route edges="gneE154 gneE245 -gneE166 -gneE233" color="yellow" id="route_97"/>
+    <route edges="-gneE155 -gneE154 gneE233 gneE166 -gneE245" color="yellow" id="route_98"/>
+    <route edges="gneE155 gneE257 -gneE167 -gneE245" color="yellow" id="route_99"/>
+</routes>

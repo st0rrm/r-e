@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-08-12  2:19:52 by Eclipse SUMO netedit Version 1.9.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\0811\demo.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\0811\demo.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\0811\demo.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <chargingStation id="chargingStation_-gneE102_0_12" lane="-gneE102_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE203_0_16" lane="-gneE203_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE276_0_13" lane="-gneE276_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE304_0_10" lane="-gneE304_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE304_0_5" lane="-gneE304_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE304_0_6" lane="-gneE304_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE304_0_7" lane="-gneE304_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE304_0_8" lane="-gneE304_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE304_0_9" lane="-gneE304_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE311_0_2" lane="-gneE311_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_-gneE45_0_0" lane="-gneE45_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE106_0_3" lane="gneE106_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE153_0_17" lane="gneE153_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE179_0_4" lane="gneE179_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE262_0_1" lane="gneE262_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE304_0_11" lane="gneE304_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE320_0_15" lane="gneE320_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE36_0_14" lane="gneE36_0" startPos="0.00" endPos="85.60"/>
+    <chargingStation id="chargingStation_gneE75_0_18" lane="gneE75_0" startPos="0.00" endPos="85.60"/>
+</additional>
